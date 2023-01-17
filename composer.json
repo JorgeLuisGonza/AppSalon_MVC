@@ -1,0 +1,22 @@
+{
+    "name": "jorge/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP8, CSS, MVC, JS, Gulp",
+    "type": "project",
+    "autoload":{
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Clases\\": "./clases"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jorge Luis Gonzalez"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.7",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
